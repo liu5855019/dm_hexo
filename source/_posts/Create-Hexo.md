@@ -4,6 +4,18 @@ date: 2022-09-19 22:34:05
 tags: hexo
 ---
 
+# 安装
+- 安装前提: nodejs
+  - 安装 nodejs
+    - 直接下载安装: [Nodejs](https://nodejs.org/en/)
+- 安装 hexo
+  ```
+  npm install -g hexo-cli
+  ```
+  
+
+
+
 # 初始化项目
 
 - 找个文件夹

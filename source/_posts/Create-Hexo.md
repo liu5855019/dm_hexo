@@ -53,3 +53,13 @@ hexo init
 hexo new "title"
 ```
 
+# 发布
+- 1. 测试, 查看效果
+  > hexo server
+
+- 2. 生成到 public 文件夹
+  > hexo g
+
+- 3. copy public 里的内容到 github.io 项目, 并提交
+
+# 最后, 提交本项目更改

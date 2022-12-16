@@ -3,7 +3,7 @@
 # 菜单
 menu:
   Home:
-    url: https://blog.zaiyuan.cc/
+    url: /
     icon: fas fa-home
   Archives:
     url: /archives

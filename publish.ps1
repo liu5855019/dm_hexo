@@ -15,5 +15,5 @@ Get-Location
 
 git status
 git add .
-git commit . -m "update"
+# git commit -a -m "update"
 

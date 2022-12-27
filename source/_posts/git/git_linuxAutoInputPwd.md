@@ -1,7 +1,7 @@
 ---
 title: linux 下 git 免密
 date: 2022-09-21 11:14:00
-tags: git, linux
+tags: [git, linux]
 ---
 
 ### 方法一

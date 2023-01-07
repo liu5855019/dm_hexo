@@ -172,7 +172,7 @@ article:
     # show split line or not
     line_style: solid # hidden, solid, dashed, dotted
     # show author
-    author: false # true, false
+    author: true # true, false
     # show readmore button
     readmore: auto # auto, always
   # 文章详情页面的文章卡片本体布局方案
@@ -261,18 +261,18 @@ article:
       # https://volantis.js.org/advanced-settings/#多人协同
       author:
         avatar: volantis-static/media/org.volantis/blog/favicon/apple-touch-icon.png # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/apple-touch-icon.png
-        name: 请设置文章作者
-        url: /
+        name: DaiMu
+        url: https://github.com/liu5855019
       # 文章创建日期
       date:
         icon: fa-solid fa-calendar-alt
         title: '发布于：'
-        format: 'll' # 日期格式 http://momentjs.com/docs/
+        format: 'YYYY-MM-DD HH:mm' # 日期格式 http://momentjs.com/docs/
       # 文章更新日期
       updated:
         icon: fa-solid fa-edit
         title: '更新于：'
-        format: 'll' # 日期格式 http://momentjs.com/docs/
+        format: 'YYYY-MM-DD HH:mm' # 日期格式 http://momentjs.com/docs/
       # 文章分类
       category:
         icon: fa-solid fa-folder-open

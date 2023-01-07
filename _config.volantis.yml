@@ -31,8 +31,8 @@ navbar:
 
 ############################### Custom css ############################### > start
 custom_css:
-  cursor:
-    enable: #true
+  cursor: # 鼠标
+    enable: true #true
     text: volantis-static/media/cursor/text.png # https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/text.png
     pointer: volantis-static/media/cursor/pointer.png # https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/pointer.png
     default: volantis-static/media/cursor/left_ptr.png # https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/left_ptr.png
@@ -42,9 +42,11 @@ custom_css:
     grab: volantis-static/media/cursor/openhand.png # https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/openhand.png
   font_smoothing: true # font-smoothing for webkit
   max_width: 1080px # Sum of body width and sidebar width (This limit will be exceeded when the device width is greater than 2000px, reaching 75% of the total width)
-  scrollbar:
-    size: 4px
-    border: 2px
+  scrollbar:  # 右侧滚动条
+    size: 8px
+    border: 4px
+    #color: '#2196f3'
+    #hover: '#ff5722'
   navbar:
     height: 64px
     width: auto # auto, max

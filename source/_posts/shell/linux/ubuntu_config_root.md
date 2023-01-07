@@ -2,6 +2,7 @@
 title: ubuntu config root
 date: 2022-12-27 11:46:48
 tags: [linux, ubuntu]
+categroies: shell
 ---
 
 ### 1. 修改 sshd_config

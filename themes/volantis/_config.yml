@@ -1,6 +1,6 @@
 ############################### Volantis ###############################
 info:
-  theme_name: Daimu # This is theme's name.
+  theme_name: Volantis # This is theme's name.
   theme_docs: https://volantis.js.org/ # This is theme's URL.
   theme_repo: https://github.com/volantis-x/hexo-theme-volantis
 # Debug 调试模式
@@ -112,7 +112,7 @@ navbar:
 ############################### Cover ############################### > start
 cover:
   height_scheme: full # full, half
-  layout_scheme: featured # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
+  layout_scheme: dock # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
   display:
     home: true
     archive: true
@@ -124,26 +124,26 @@ cover:
   subtitle: ''
   search: A Wonderful Theme for Hexo # search bar placeholder
   features:
-    - name: 首页
+    - name: 文档
       icon: #
       img: volantis-static/media/twemoji/assets/svg/1f5c3.svg # https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5c3.svg
-      url: /
-    - name: 归档
-      icon: #
-      img: volantis-static/media/twemoji/assets/svg/1f4f0.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg
-      url: /archives/
-    - name: tags
-      icon: #
-      img: volantis-static/media/twemoji/assets/svg/1f396.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f396.svg
-      url: /tags/
+      url: /v4/getting-started/
     - name: 帮助
       icon: #
       img: volantis-static/media/twemoji/assets/svg/1f516.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f516.svg
       url: faqs/
+    - name: 示例
+      icon: #
+      img: volantis-static/media/twemoji/assets/svg/1f396.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f396.svg
+      url: /examples/
     - name: 社区
       icon: #
       img: volantis-static/media/twemoji/assets/svg/1f389.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f389.svg
       url: /contributors/
+    - name: 博客
+      icon: #
+      img: volantis-static/media/twemoji/assets/svg/1f4f0.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg
+      url: /archives/
     - name: 源码
       icon: #
       img: volantis-static/media/twemoji/assets/svg/1f9ec.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f9ec.svg
@@ -172,7 +172,7 @@ article:
     # show split line or not
     line_style: solid # hidden, solid, dashed, dotted
     # show author
-    author: true # true, false
+    author: false # true, false
     # show readmore button
     readmore: auto # auto, always
   # 文章详情页面的文章卡片本体布局方案
@@ -261,18 +261,18 @@ article:
       # https://volantis.js.org/advanced-settings/#多人协同
       author:
         avatar: volantis-static/media/org.volantis/blog/favicon/apple-touch-icon.png # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/apple-touch-icon.png
-        name: DaiMu
-        url: https://github.com/liu5855019
+        name: 请设置文章作者
+        url: /
       # 文章创建日期
       date:
         icon: fa-solid fa-calendar-alt
         title: '发布于：'
-        format: 'YYYY-MM-DD HH:mm' # 日期格式 http://momentjs.com/docs/
+        format: 'll' # 日期格式 http://momentjs.com/docs/
       # 文章更新日期
       updated:
         icon: fa-solid fa-edit
         title: '更新于：'
-        format: 'YYYY-MM-DD HH:mm' # 日期格式 http://momentjs.com/docs/
+        format: 'll' # 日期格式 http://momentjs.com/docs/
       # 文章分类
       category:
         icon: fa-solid fa-folder-open
@@ -1222,10 +1222,7 @@ custom_css:
   navbar:
     height: 64px
     width: auto # auto, max
-    effect: [shadow, floatable, blur] # [shadow, floatable, blur] 
-# shadow：卡片阴影。
-# floatable：当鼠标移动到容器内时，呈现出浮起来的效果。
-# blur：背景模糊效果（毛玻璃），当浏览器不支持时显示为不透明。
+    effect: [shadow, floatable, blur] # [shadow, floatable, blur]
   sidebar:
     effect: [shadow, floatable, blur] # [shadow, floatable, blur]
   body:
@@ -1286,10 +1283,10 @@ custom_css:
 
 ############################### Analytics ############################### > start
 analytics:
-  busuanzi: volantis-static/libs/busuanzi/js/busuanzi.pure.mini.js #volantis-static/libs/busuanzi/js/busuanzi.pure.mini.js #https://cdn.jsdelivr.net/gh/volantis-x/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js
+  busuanzi: #volantis-static/libs/busuanzi/js/busuanzi.pure.mini.js #https://cdn.jsdelivr.net/gh/volantis-x/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js
   leancloud: # 请使用自己的 id & key 以防止数据丢失
-    app_id:  u9j57bwJod4EDmXWdxrwuqQT-MdYXbMMI
-    app_key:  jfHtEKVE24j0IVCGHbvuFClp
+    app_id: # u9j57bwJod4EDmXWdxrwuqQT-MdYXbMMI
+    app_key: # jfHtEKVE24j0IVCGHbvuFClp
     custom_api_server: # 国际版一般不需要写，除非自定义了 API Server
 ############################### Analytics ############################### > end
 

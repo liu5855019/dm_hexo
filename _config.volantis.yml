@@ -55,9 +55,9 @@ custom_css:
 # floatable：当鼠标移动到容器内时，呈现出浮起来的效果。
 # blur：背景模糊效果（毛玻璃），当浏览器不支持时显示为不透明。
   sidebar:
-    effect: [shadow, floatable, blur] # [shadow, floatable, blur]
+    effect: [shadow, blur] # [shadow, floatable, blur]
   body:
-    effect: [shadow, floatable, blur] # [shadow, floatable, blur]
+    effect: [shadow, floatable] # [shadow, floatable, blur]
     highlight:
       language: true # show language of codeblock
       grayscale: false # Enable grayscale effect

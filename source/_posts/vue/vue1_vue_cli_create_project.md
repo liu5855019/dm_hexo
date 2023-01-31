@@ -1,5 +1,5 @@
 ---
-title: vue cli create project
+title: vue1 -- vue cli create project
 date: 2023-01-30 21:18:55
 tags: [vue, vue_cli]
 categroies: [vue]
@@ -23,4 +23,19 @@ npx vue create project-one
 
 - 安装 cnpm
 > npm install -g cnpm --registry=https://registry.npm.taobao.org
+
+
+
+### 2. config vue.config.js
+
+```js
+const { defineConfig } = require('@vue/cli-service')
+module.exports = defineConfig({
+  transpileDependencies: true,
+  devServer: {
+    open: true,
+    host: "localhost"
+  }
+})
+```
 

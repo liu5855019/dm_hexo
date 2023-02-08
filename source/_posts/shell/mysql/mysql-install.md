@@ -1,7 +1,7 @@
 ---
 title: mysql install
 date: 2022-12-17 11:24:25
-tags: mysql
+tags: [sql, mysql]
 ---
 
 ## mysql install

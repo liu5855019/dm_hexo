@@ -1,5 +1,5 @@
 ---
-title: dotnet publish
+title: dotnet -- publish
 date: 2022-09-21 11:58:12
 tags: dotnet
 ---

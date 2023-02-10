@@ -1,5 +1,5 @@
 ---
-title: vue2 -- add element ui
+title: vue2 -- add element ui / plus
 date: 2023-01-31 17:27:23
 tags: [vue, element_ui]
 categroies: [vue]
@@ -44,3 +44,27 @@ new Vue({
 </template>
 
 ```
+
+### 4. vue3 用的是 element plus
+
+- 官网 [https://element-plus.gitee.io/zh-CN/](https://element-plus.gitee.io/zh-CN/)
+
+- 安装
+  ```bash
+  npm install element-plus --save
+  ```
+- 使用
+  - main.ts
+      ```ts
+        import { createApp } from 'vue'
+        import ElementPlus from 'element-plus'
+        import 'element-plus/dist/index.css'
+        import App from './App.vue'
+
+        const app = createApp(App)
+
+        app.use(ElementPlus)
+        app.mount('#app')
+      ```
+- 使用 icon, 需要安装与引用
+  地址: [https://element-plus.gitee.io/zh-CN/component/icon.html](https://element-plus.gitee.io/zh-CN/component/icon.html)

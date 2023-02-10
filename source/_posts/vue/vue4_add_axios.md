@@ -7,3 +7,8 @@ categroies: [vue]
 
 ### 1. axios
 - axios 是用来网络请求的
+
+### 安装
+```
+  npm install --save axios
+```

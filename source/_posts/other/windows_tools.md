@@ -19,6 +19,8 @@ categroies: [tools]
 
 ### 2. 截图软件
 - snipaste 
+  - 确实好用
+  - 官网地址: [https://zh.snipaste.com/](https://zh.snipaste.com/)
    
 ### 3. utools
 - 工具合集, 非常好用
@@ -30,6 +32,7 @@ categroies: [tools]
 
 ### 5. 硬件监控
 - trafficMonitor 
+  - github: [https://github.com/zhongyang219/TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor)
 
 ### 6. 快速预览
 - quicklook 空格键预览文件，开源

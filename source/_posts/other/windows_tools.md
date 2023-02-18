@@ -10,6 +10,7 @@ categroies: [tools]
 ### 1. 下载工具
 - Motrix
    - 一款全能的下载工具。支持下载 HTTP 、FTP 、BT 、磁力链接等资源。
+   - 官网: [https://motrix.app/](https://motrix.app/)
 - qbittorrent
      - 据说比 motrix 快
      - github地址: [https://github.com/portapps/qbittorrent-portable](https://github.com/portapps/qbittorrent-portable)

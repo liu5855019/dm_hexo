@@ -1,5 +1,5 @@
 ---
-title: linux -- ubuntu config root
+title: linux -- linux cmd
 date: 2023-02-08 14:58:57
 tags: [linux]
 categroies: linux

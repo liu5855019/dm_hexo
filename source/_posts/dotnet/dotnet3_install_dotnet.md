@@ -1,5 +1,5 @@
 ---
-title: dotnet -- linux install dotnet
+title: dotnet -- 3. linux install dotnet
 date: 2023-02-08 15:28:42
 tags: [dotnet, linux]
 ---

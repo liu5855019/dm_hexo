@@ -5,7 +5,7 @@ tags: [docker, sql, mysql]
 categories: [docker]
 ---
 
-## mysql install
+# mysql install
 
 ### 创建文件
 - 在要部署的地方, 创建 docker-compose.yaml 文件

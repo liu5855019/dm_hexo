@@ -2,6 +2,7 @@
 title: dotnet -- 3. linux install dotnet
 date: 2023-02-08 15:28:42
 tags: [dotnet, linux]
+categories: [dotnet]
 ---
 
 ### 脚本安装

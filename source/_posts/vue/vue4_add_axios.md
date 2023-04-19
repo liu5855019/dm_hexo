@@ -2,7 +2,7 @@
 title: vue4 -- add axios
 date: 2023-02-10 16:12:20
 tags: [vue, axios]
-categroies: [vue]
+categories: [vue]
 ---
 
 ### 1. axios

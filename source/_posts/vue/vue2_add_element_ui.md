@@ -2,7 +2,7 @@
 title: vue2 -- add element ui / plus
 date: 2023-01-31 17:27:23
 tags: [vue, element_ui]
-categroies: [vue]
+categories: [vue]
 ---
 
 ### 1. install

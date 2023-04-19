@@ -2,6 +2,7 @@
 title: dotnet -- 5. 中间件 Middleware
 date: 2022-09-21 11:58:12
 tags: [dotnet, .netcore]
+categories: [dotnet]
 ---
 
 ### 概念

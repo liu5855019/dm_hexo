@@ -2,7 +2,7 @@
 title: vue5 -- 配置跨域
 date: 2023-02-10 18:02:37
 tags: [vue, cors]
-categroies: [vue]
+categories: [vue]
 ---
 
 ### 1. 概念

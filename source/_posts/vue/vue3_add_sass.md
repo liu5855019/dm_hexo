@@ -2,7 +2,7 @@
 title: vue3 -- add add sass
 date: 2023-02-01 10:13:01
 tags: [vue, sass]
-categroies: [vue]
+categories: [vue]
 ---
 
 ### 1. install

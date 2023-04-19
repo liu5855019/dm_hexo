@@ -2,7 +2,7 @@
 title: vue1 -- vue cli create project
 date: 2023-01-30 21:18:55
 tags: [vue, vue_cli]
-categroies: [vue]
+categories: [vue]
 ---
 
 ### 1. install

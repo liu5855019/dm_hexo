@@ -1,7 +1,9 @@
 ---
 title: docker -- 1. Dockerfile
 date: 2023-04-07 11:09:18
-tags: [docker]
+tags: [docker, dockerfile]
+categories: [docker]
+wordcount: 100
 ---
 
 ### 作用

@@ -1,7 +1,8 @@
 ---
-title: mysql install
+title: docker -- 2. mysql install
 date: 2022-12-17 11:24:25
-tags: [sql, mysql]
+tags: [docker, sql, mysql]
+categories: [docker]
 ---
 
 ## mysql install

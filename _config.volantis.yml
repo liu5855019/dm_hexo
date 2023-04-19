@@ -1,7 +1,7 @@
 ############################### Navigation Bar ############################### > start
 # 注意事项：建议规范全站路径 URL 最后带一个 "/" 例如 "about/"
 navbar:
-  visiable: auto # always, auto
+  visiable: always # always, auto
   logo: # choose [img] or [icon + title]
     img: volantis-static/media/org.volantis/blog/Logo-NavBar@3x.png # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png
     icon:
@@ -10,15 +10,15 @@ navbar:
     - name: 博客
       icon: fa-solid fa-rss
       url: /
+    - name: 归档
+      icon: fa-solid fa-archive
+      url: archives/
     - name: 分类
       icon: fa-solid fa-folder-open
       url: categories/
     - name: 标签
       icon: fa-solid fa-tags
       url: tags/
-    - name: 归档
-      icon: fa-solid fa-archive
-      url: archives/
     - name: 友链
       icon: fa-solid fa-link
       url: friends/
@@ -27,6 +27,54 @@ navbar:
       url: about/
   search: Search...   # Search bar placeholder
 ############################### Navigation Bar ############################### > end
+
+
+
+############################### Cover ############################### > start
+cover:
+  height_scheme: half # full, half
+  layout_scheme: blank # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
+  display:
+    home: true
+    archive: true
+    others: false # can be written in front-matter 'cover: true'
+  background: https://gcore.jsdelivr.net/gh/MHG-LAB/cron@gh-pages/bing/bing.jpg
+  # background: https://bing.ioliu.cn/v1/rand?w=1920&h=1200
+  logo: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-Cover@3x.png
+  title: Volantis
+  subtitle: daimu's blog
+  search: A Wonderful Theme for Hexo # search bar placeholder
+  features:
+    - name: 文档
+      icon: #
+      img: volantis-static/media/twemoji/assets/svg/1f5c3.svg # https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5c3.svg
+      url: /v4/getting-started/
+    - name: 帮助
+      icon: #
+      img: volantis-static/media/twemoji/assets/svg/1f516.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f516.svg
+      url: faqs/
+    - name: 示例
+      icon: #
+      img: volantis-static/media/twemoji/assets/svg/1f396.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f396.svg
+      url: /examples/
+    - name: 社区
+      icon: #
+      img: volantis-static/media/twemoji/assets/svg/1f389.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f389.svg
+      url: /contributors/
+    - name: 博客
+      icon: #
+      img: volantis-static/media/twemoji/assets/svg/1f4f0.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg
+      url: /archives/
+    - name: 源码
+      icon: #
+      img: volantis-static/media/twemoji/assets/svg/1f9ec.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f9ec.svg
+      url: https://github.com/volantis-x/hexo-theme-volantis/
+############################### Cover ############################### > end
+
+
+
+
+
 
 
 ############################### Article Layout 文章布局 ############################### > start
@@ -53,10 +101,10 @@ article:
   body:
     # 文章顶部信息
     # 从 meta_library 中取
-    top_meta: [author, category, date, counter] #启用评论数量需在此添加
+    top_meta: [author, category, updated, wordcount] #启用评论数量需在此添加
     # 文章底部信息
     # 从 meta_library 中取
-    bottom_meta: [updated, tags, share]
+    bottom_meta: [date, updated, tags, share]
     # ----------------
     # 文章页脚组件
     footer_widget:

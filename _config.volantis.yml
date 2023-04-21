@@ -10,7 +10,7 @@ navbar:
     - name: 博客
       icon: fa-solid fa-rss
       url: /
-    - name: 归档
+    - name: 时间线
       icon: fa-solid fa-archive
       url: archives/
     - name: 分类
@@ -19,9 +19,9 @@ navbar:
     - name: 标签
       icon: fa-solid fa-tags
       url: tags/
-    - name: 友链
-      icon: fa-solid fa-link
-      url: friends/
+    # - name: 友链
+    #   icon: fa-solid fa-link
+    #   url: friends/
     - name: 关于
       icon: fa-solid fa-info-circle
       url: about/

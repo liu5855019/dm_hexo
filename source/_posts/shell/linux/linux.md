@@ -2,7 +2,7 @@
 title: linux -- linux cmd
 date: 2023-02-08 14:58:57
 tags: [linux]
-categroies: linux
+categroies: [linux]
 ---
 
 ### 查看系统信息

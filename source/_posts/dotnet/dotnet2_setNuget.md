@@ -1,7 +1,7 @@
 ---
 title: dotnet -- 2. set nuget
 date: 2022-09-21 11:58:12
-tags: dotnet
+tags: [dotnet]
 categories: [dotnet]
 ---
 

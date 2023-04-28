@@ -1,7 +1,7 @@
 ---
 title: Create Hexo
 date: 2022-09-19 22:34:05
-tags: hexo
+tags: [hexo]
 ---
 
 # 安装

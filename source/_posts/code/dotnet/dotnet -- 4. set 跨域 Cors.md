@@ -1,6 +1,6 @@
 ---
 title: dotnet -- 4. set 跨域 Cors
-updated: 2022-09-21 03:58:12Z
+updated: 2023-05-05 09:19:36Z
 created: 2022-09-21 03:58:12Z
 tags:
   - .netcore

@@ -1,6 +1,6 @@
 ---
 title: dotnet -- 3. linux install dotnet
-updated: 2023-02-08 07:28:42Z
+updated: 2023-05-05 09:55:40Z
 created: 2023-02-08 07:28:42Z
 tags:
   - dotnet
